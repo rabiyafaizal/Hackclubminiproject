@@ -1,0 +1,64 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: #264d50;
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin-top: 5%;
+    font-family: 'David Libre', serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #f3f4f6;
+
+}    
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  
+}
+
+#clock {
+    font-family: 'Wallpoet', cursive;
+    font-size: 3.5rem;
+    background-color: #f3f4f6;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-family: 'Big Shoulders Stencil Display', cursive ;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    padding: 12px 15px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: rgb(122, 185, 161);
+}
+
+.clear-alarm {
+    background-color: rgb(122, 185, 161);
+}
